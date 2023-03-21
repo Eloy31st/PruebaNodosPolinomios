@@ -1,6 +1,8 @@
 # PruebaNodosPolinomios
 
+Mi repositorio: https://github.com/Eloy31st/PruebaNodosPolinomios.git
 
+#Objetivo
 Se deben definir los tipos de datos datoPolinomio y Polinomio, donde el primero almacena el valor y el término de dicho valor –es decir si es xn, xn-1,…, x0– y el segundo es la estructura de datos polinomio que está compuesto de dos campos el grado del polinomio y un puntero que apunta al termino mayor del polinomio, 
 Por su parte en el bloque de la interfaz se desarrollan inicialmente los eventos necesarios para ad- ministrar el polinomio, es decir, para poder cargar un elemento, modificarlo y obtener su valor. 
 Luego se definen las funciones específicas para realizar operaciones con polinomios, como sumar, multiplicar y mostrar su contenido. 
