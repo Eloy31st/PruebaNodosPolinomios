@@ -1,8 +1,8 @@
 public class datoPolinomio{
      private int termino;
-     private float valor;
+     private int valor;
 
-     public datoPolinomio(int termino, float valor) {
+     public datoPolinomio(int termino, int valor) {
             this.termino = termino;
             this.valor = valor;
      }
@@ -15,15 +15,15 @@ public class datoPolinomio{
          this.termino = termino;
      }
 
-     public float getValor() {
+     public int getValor() {
          return valor;
      }
 
-     public void setValor(float valor) {
+     public void setValor(int valor) {
          this.valor = valor;
      }
 
      public String toString(){
-            return "Polinomio: " + termino + "*x^" + valor;
+            return termino + "x^" + valor;
      }
 }
